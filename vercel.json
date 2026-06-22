@@ -1,0 +1,12 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "installCommand": "",
+  "buildCommand": "",
+  "framework": null,
+  "rewrites": [
+    { "source": "/favicon.ico", "destination": "/src/assets/appicon.png" },
+    { "source": "/user/:path*", "destination": "/user/:path*" },
+    { "source": "/", "destination": "/src/index.html" },
+    { "source": "/:path*", "destination": "/src/:path*" }
+  ]
+}
