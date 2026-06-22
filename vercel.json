@@ -1,5 +1,9 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
+  "alias": [
+    "voxel-builder-delta.vercel.app",
+    "voxel-builder-grudgenexus.vercel.app"
+  ],
   "installCommand": "",
   "buildCommand": "",
   "framework": null,
